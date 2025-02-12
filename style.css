@@ -1,0 +1,68 @@
+img {
+  width: 400px ;
+  left: 740px;
+  top: 239px;
+  border-radius: 20px;
+}
+.about-section h1 {
+  width: 500px;
+  left: calc(50% - 500px / 2 - 330px);
+  top: 256px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  color: #000000;
+}
+
+.about-section h2 {
+  width: 506px;
+  height: 27px;
+  left: calc(50% - 506px / 2 - 327px);
+  top: 455px;
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
+}
+.about-section {
+  margin: 100px 30px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  width: 1193px;
+  height: 818px;
+  left: 140px;
+  top: 40px;
+  text-align: center;
+  
+}
+.about-section p {
+  
+  left: calc(50% - 475px / 2 - 342.5px);
+  top: 510px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+ 
+}
+.btn {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding: 15px 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 1px solid;
+}
+.about-section-content{
+  text-align: left;
+}
+body{
+  display: block;
+}
