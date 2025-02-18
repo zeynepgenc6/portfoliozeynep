@@ -1,4 +1,7 @@
-.about {
+body{
+  background-image: url(images/8f8178b3427b313295f6c6032817f3b4.jpg);
+  background-size: cover;
+}.about {
   text-align: center;
   margin: 200px;
 }
@@ -7,6 +10,14 @@ h2,
 h3 {
   margin: 20px;
   font-family: "Bad Script", serif;
+  color: #83580b;
+}
+.about h1{
+  font-size: 43px;
+}
+.about h3{
+  padding-top: 15px;
+  font-size: 15px;
 }
 img {
   width: 400px;
@@ -22,7 +33,7 @@ img {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
-  color: #000000;
+  color: #83580b;
 }
 
 .about-section h2 {
@@ -33,17 +44,22 @@ img {
   font-family: "Bad Script", serif;
   font-size: 18px;
   line-height: 27px;
-  color: #272142;
+  color: #734444;
+  opacity: 0.7;
+  padding: 20px;
 }
 .about-section {
   margin: 100px 30px;
   position: absolute;
-  font-style: normal;
+  font-style:normal ;
   font-weight: 700;
   width: 1193px;
   height: 818px;
   left: 140px;
   top: 40px;
+  text-align: center;
+}
+.title{
   text-align: center;
 }
 .about-section p {
@@ -54,18 +70,22 @@ img {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
+  color: #734444;
 }
 .btn {
   cursor: pointer;
-  color: white;
-  background-color: black;
+  color: #f5f4e8;
+  background-color: #83580b;
   padding: 15px 20px;
+  opacity: 0.5;
+  margin: 0 15px;
 }
 .btn:hover {
   cursor: pointer;
-  color: black;
-  background-color: white;
+  color: #83580b;
+  background-color: #f5f4e8;
   border: 1px solid;
+  opacity: 0.5;
 }
 .about-section-content {
   text-align: left;
