@@ -1,5 +1,15 @@
+.about {
+  text-align: center;
+  margin: 200px;
+}
+.about h1,
+h2,
+h3 {
+  margin: 20px;
+  font-family: "Bad Script", serif;
+}
 img {
-  width: 400px ;
+  width: 400px;
   left: 740px;
   top: 239px;
   border-radius: 20px;
@@ -8,7 +18,7 @@ img {
   width: 500px;
   left: calc(50% - 500px / 2 - 330px);
   top: 256px;
-  font-family: "Playfair Display";
+  font-family: "Bad Script", serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
@@ -20,7 +30,7 @@ img {
   height: 27px;
   left: calc(50% - 506px / 2 - 327px);
   top: 455px;
-  font-family: "Poppins";
+  font-family: "Bad Script", serif;
   font-size: 18px;
   line-height: 27px;
   color: #272142;
@@ -35,10 +45,8 @@ img {
   left: 140px;
   top: 40px;
   text-align: center;
-  
 }
 .about-section p {
-  
   left: calc(50% - 475px / 2 - 342.5px);
   top: 510px;
   font-family: "Poppins";
@@ -46,7 +54,6 @@ img {
   font-size: 16px;
   line-height: 30px;
   color: rgba(39, 33, 66, 0.7);
- 
 }
 .btn {
   cursor: pointer;
@@ -60,9 +67,9 @@ img {
   background-color: white;
   border: 1px solid;
 }
-.about-section-content{
+.about-section-content {
   text-align: left;
 }
-body{
+body {
   display: block;
 }
