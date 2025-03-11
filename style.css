@@ -94,7 +94,7 @@ img {
 body {
   display: block;
 }
-.text-center{
+.text-center {
   padding-top: 10px;
   text-align: center;
 }
@@ -104,6 +104,7 @@ body {
   text-align: center;
   padding: 5px;
 }
-.row{
+.row {
   display: flex;
-flex: wrap;}
+  flex: wrap;
+}
