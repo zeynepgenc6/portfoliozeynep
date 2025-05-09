@@ -26,18 +26,20 @@ img {
   top: 239px;
   border-radius: 20px;
 }
-.about-section h1 {
+.content-container h1 {
   width: 500px;
-  left: calc(50% - 500px / 2 - 330px);
+ display: flex;
+ justify-content: center;
   top: 256px;
   font-family: "Bad Script", serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
   color: #83580b;
+  text-align: center;
 }
 
-.about-section h2 {
+.content-container h2 {
   width: 506px;
   height: 27px;
   left: calc(50% - 506px / 2 - 327px);
@@ -49,23 +51,24 @@ img {
   opacity: 0.7;
   padding: 20px;
 }
-.about-section {
-  margin: 100px 30px;
+
+.content-container {
+  margin: 60px 30px;
   position: absolute;
   font-style: normal;
   font-weight: 700;
   width: 1193px;
   height: 818px;
-  left: 140px;
+  left: 80px;
   top: 40px;
   text-align: center;
 }
 .title {
   text-align: center;
 }
-.about-section p {
+.content-container p {
   left: calc(50% - 475px / 2 - 342.5px);
-  top: 510px;
+  top: 410px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
@@ -88,9 +91,6 @@ img {
   border: 1px solid;
   opacity: 0.5;
 }
-.about-section-content {
-  text-align: left;
-}
 body {
   display: block;
 }
@@ -107,4 +107,22 @@ body {
 .row {
   display: flex;
   flex: wrap;
+}
+.email-link{
+  cursor: pointer;
+  color: #83580b;
+  opacity: 0.5;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.material-symbols-outlined{
+  color: #734444;
+  font-size: 40px;
+  margin: 10px;
+}
+.col-6{
+  text-align: center;
+}
+.mb-4{
+  text-align: center;
 }
