@@ -28,8 +28,6 @@ img {
 }
 .content-container h1 {
   width: 500px;
- display: flex;
- justify-content: center;
   top: 256px;
   font-family: "Bad Script", serif;
   font-weight: 700;
@@ -125,4 +123,8 @@ body {
 }
 .mb-4{
   text-align: center;
+  color: #734444;
+  opacity: 0.9;
+  padding: 10px;
+  font-family: "Bad Script", serif;
 }
