@@ -4,7 +4,7 @@ body {
 }
 .about {
   text-align: center;
-  margin: 200px;
+  margin: 130px;
 }
 .about h1,
 h2,
@@ -128,12 +128,29 @@ body {
   padding: 10px;
   font-family: "Bad Script", serif;
 }
+nav{
+  padding: 20px 0px;
+}
 nav li{
   display: inline;
   list-style: none;
- 
+ line-height: 42px;
+ margin-left: 15px;
 }
 nav ul{
   padding: 0;
   margin: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #734444;
+  transition: all 100ms ease ease-in-out;
+}
+
+nav a:hover, nav li.active a{
+  color:#d3bd9a;
+}
+.container{
+  font-size: 19px;
+  font-family:"Bad Script", serif ;
 }
