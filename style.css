@@ -161,9 +161,11 @@ footer .email-link{
   text-decoration: none;
   color: #734444;
   font-size: 24px;
+   font-family:"Bad Script", serif ;
 }
 footer .email-link:hover{
   color: #83580b;
+ 
 }
 footer .social-links a{
   margin: 0 20px;
