@@ -4,7 +4,7 @@ body {
 }
 .about {
   text-align: center;
-  margin: 130px;
+  margin: 100px;
 }
 .about h1,
 h2,
@@ -153,4 +153,24 @@ nav a:hover, nav li.active a{
 .container{
   font-size: 19px;
   font-family:"Bad Script", serif ;
+}
+footer{
+   margin: 40px 0;
+}
+footer .email-link{
+  text-decoration: none;
+  color: #734444;
+  font-size: 24px;
+}
+footer .email-link:hover{
+  color: #83580b;
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: #734444;
+  background: #f5f0e8;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #734444;
+  font-size: 18px;
 }
