@@ -156,6 +156,7 @@ nav a:hover, nav li.active a{
 }
 footer{
    margin: 40px 0;
+   text-align: center;
 }
 footer .email-link{
   text-decoration: none;
